@@ -54,22 +54,22 @@ const refs = {
   titleModal: document.querySelector('.title-modal'),
 };
 
-refs.lampModel.addEventListener('input', event => {
-  if (event.target.value === 'Silver') {
-    refs.newPrice.innerHTML = modSilver.newPrice;
-    refs.oldPrice.innerHTML = modSilver.oldPrice;
-    refs.imgModal.src = modSilver.preview;
-    refs.titleModal.innerHTML = modSilver.title;
-  } else if (event.target.value === 'Gold') {
-    refs.newPrice.innerHTML = modGold.newPrice;
-    refs.oldPrice.innerHTML = modGold.oldPrice;
-    refs.imgModal.src = modGold.preview;
-    refs.titleModal.innerHTML = modGold.title;
-  } else {
-    refs.newPrice.innerHTML = '';
-    refs.oldPrice.innerHTML = '';
-  }
-});
+// refs.lampModel.addEventListener('input', event => {
+//   if (event.target.value === 'Silver') {
+//     refs.newPrice.innerHTML = modSilver.newPrice;
+//     refs.oldPrice.innerHTML = modSilver.oldPrice;
+//     refs.imgModal.src = modSilver.preview;
+//     refs.titleModal.innerHTML = modSilver.title;
+//   } else if (event.target.value === 'Gold') {
+//     refs.newPrice.innerHTML = modGold.newPrice;
+//     refs.oldPrice.innerHTML = modGold.oldPrice;
+//     refs.imgModal.src = modGold.preview;
+//     refs.titleModal.innerHTML = modGold.title;
+//   } else {
+//     refs.newPrice.innerHTML = '';
+//     refs.oldPrice.innerHTML = '';
+//   }
+// });
 
 const addSilver = document.querySelector('[data-cart="silver"]');
 const cartSilver = document.querySelector('[data-modal="silver"]');
