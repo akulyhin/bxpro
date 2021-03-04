@@ -1,0 +1,18 @@
+.contact-section {
+    padding-bottom: 150px;
+}
+
+.phone-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.phone-block a {
+    color: #232d4b;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: .5em 0;
+}

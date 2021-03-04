@@ -1,0 +1,91 @@
+<div class="svg-background svg-services">
+    <img src="./images/bg/services-bg.svg" alt="" class="svg-background services-background">
+</div>
+
+<section class="section products-section" id="products">
+    <div class="container">
+        <div class="products-discription">
+            <h2>LED Лампы:</h2>
+            <span class="products-subtitle digit fade-in">
+                Мы отобрали 2 самые популярные модели ламп с нашего основного сайта, которые соответсвуют низкой цене и высокому качеству, чтобы Ваши глаза не разбегались. Эти модели представлены с разными цоколями: h1, h4, h7
+            </span>
+        </div>
+        <div class="row prod">
+
+            <div class="col-md-6">
+                <div class="products digit app-left">
+                    <div class="stickers">
+                        <div class="sticker-set">
+                            <span>Цена за комплект</span>
+                        </div>
+                    </div>
+                    <div class="image" data-toggle="modal" data-target="#silverModal">
+                        <img src="./images/led-lamps/c6-leds.jpg" alt="">
+                    </div>
+                    <div class="caption">
+                        <div class="product-name" data-toggle="modal" data-target="#silverModal">LED-лампы <b>SILVER</b> 36w 3800Lm 5000K</div>
+                        <div class="base">
+                            Цоколи:
+                            h1, h4, h7
+                        </div>
+                        <div class="price-form">
+                            <span class="old-price">499 грн.</span>
+                            <span class="new-price">399 грн.</span>
+                        </div>
+
+                        <div class="cart">
+                            <button class="btn btn-sale" data-toggle="modal" data-target="#silverModal" data-cart="silver">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="products digit app-right">
+                    <div class="stickers right">
+                        <div class="sticker-set">
+                            <span>Цена за комплект</span>
+                        </div>
+                    <div class="image" data-toggle="modal" data-target="#goldModal">
+                        <img src="./images/led-lamps/gold/4.jpg" alt="">
+                    </div>
+                    <div class="caption">
+                        <div class="product-name" data-toggle="modal" data-target="#goldModal">LED-лампы <b>GOLD</b> 36w 4000Lm 5000K</div>
+                        <div class="base">
+                            Цоколи:
+                            h4, h7
+                        </div>
+                        <div class="price-form">
+                            <span class="old-price">699 грн.</span>
+                            <span class="new-price">599 грн.</span>
+                        </div>
+
+                        <div class="cart">
+                            <button class="btn btn-sale" data-toggle="modal" data-target="#goldModal" data-cart="gold">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <h2 class="col-12 digit app-left mt-5">Не знаете какие лампы Вам подходят?</h2>
+        <h3 class="col-12 digit app-right mb-5">Оставьте свой телефон и мы поможем подобрать.</h3>
+        <div class="col-12 justify-content-center">
+            <form class="row col-12 justify-content-center"  id="call-request" method="POST" autocomplete="off">
+                <div class="date-control col-md-4">
+                    <input type="text" name="name-call" autocomplete="off" class="name-input callback" placeholder="Введите Ваше имя" required /><div class="date-label psevdo"><label for="name">Ваше имя</label></div>
+                    <p></p>
+                </div>
+                <div class="date-control col-md-4">
+                    <input type="tel" name="tel-call" autocomplete="off" class="tel-input callback" minlength="17" placeholder="Введите Ваш телефон" required><div class="date-label psevdo"><label for="tel">Ваш телефон</label></div>
+                    <p></p>
+                </div>
+                <div class="col-md-4">
+                    <input type="submit" id="submit-callback" value="Оставить заявку!" class="form-submit">
+                </div>
+            </form>
+            <div id="post_form_success-call"></div>
+        </div>
+    </div>
+</section>

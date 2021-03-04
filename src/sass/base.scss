@@ -1,0 +1,156 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $main-color;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color:#253861
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #bdbdbd;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #232d4b;
+}
+
+.container {
+  margin: 0 auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
+main {
+  overflow: hidden;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 32px;
+
+  @media (max-width: 991px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 21px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+
+.section {
+  overflow: hidden;
+  z-index: 10;
+  position: relative;
+  padding: 0 10px;
+}
+
+.button {
+    margin: 0 auto;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 8px;
+    background: $main-color;
+    box-shadow: 0 20px 32px 0 rgba(40,85,175, .15), 0 10px 15px 0 rgba(40,85,175, .25);
+    border: none;
+    line-height: .94;
+    transition: .2s ease;
+
+    &:hover {
+        box-shadow: 5px 20px 25px 2px rgba(40,85,175, .35), 5px 10px 15px 2px rgba(40,85,175, .45);
+    }
+
+    &:focus {
+      outline: none;
+    }
+}
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+
+// Breadcrumbs
+.breadcrumbs {
+  padding: 15px 0;
+}
+
+.breadcrumbs>:not(:last-child):after {
+  content: "/";
+  color: #b7b7b7;
+  margin-left: .3125rem;
+  margin-right: .3125rem;
+}
+// Breadcrumbs
+
+@media (max-width: 767px) {
+  .particles-js-canvas-el {
+    display: none;
+  }
+}
+
+.mfp-bg {
+  z-index: 1051;
+}
+.mfp-wrap {
+  z-index: 1052;
+}

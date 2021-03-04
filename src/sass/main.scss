@@ -1,0 +1,27 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'normalize';
+@import 'helpers/variables';
+@import 'base';
+
+// Components
+@import 'components/scroll-magic';
+
+@import 'components/header';
+@import 'components/mobile-menu';
+@import 'components/intro';
+@import 'components/products';
+@import 'components/about-clv';
+@import 'components/system-elements';
+@import 'components/form-action';
+
+@import 'components/our-advanteges';
+@import 'components/faq';
+@import 'components/reviews';
+@import 'components/contacts';
+@import 'components/footer';
+
+
+@import 'components/main';

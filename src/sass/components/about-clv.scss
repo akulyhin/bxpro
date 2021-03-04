@@ -1,0 +1,146 @@
+.svg-about_svg {
+    transform: translateY(70px) translateX(-50px);
+    width: 1150px;
+    max-width: 100%;
+    min-height: 1350px;
+
+}
+
+.about-clv {
+    padding: 120px 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about-clv_content {
+    margin-top: 20px;
+}
+
+// clv advantages
+
+.advantages_title {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    display: block;
+
+    @media (max-width: 767px) {
+        font-size: 21px;
+        margin-top: 40px;
+    }
+}
+
+.cases-arrow {
+    transition: all .5s ease;
+}
+
+.cases-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(50px,-50%);
+    z-index: 1;
+    left: -58px;
+}
+
+.cases-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50px,-50%);
+    right: 42px;
+}
+
+
+.cases-arrow-inner {
+    border-radius: 100%;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20);
+    width: 36px;
+    height: 36px;
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    opacity: .65;
+    transition: opacity .2s ease;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.cases-icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+.tech-block {
+    margin: 20px 15px 25px;
+    transition: 0.5s ease;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.tech-block-inner {
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 8px 22px rgba(0,0,0,.1);
+    min-height: 460px;
+    
+    @media (max-width: 991px) {
+        min-height: 560px;
+    }
+}
+
+.tech-img-block {
+    background: #f9f9f9;
+    height: 170px;
+    border-radius: 18px 18px 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-img-block svg {
+    width: 110px;
+}
+
+.tech-content-block {
+    padding: 20px 15px 25px 15px;
+}
+
+.tech-content-title {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.tech-content-text {
+    font-size: 13px;
+    color: #444;
+}
+
+.tech-content-text p {
+    margin-top: .5rem;
+}
+
+.tech-content-text li {
+    list-style-type: none;
+    margin-bottom: .5rem;
+}
