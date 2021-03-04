@@ -1,0 +1,1 @@
+"use strict";for(var controller=new ScrollMagic.Controller,revealElements=document.getElementsByClassName("digit"),i=0;i<revealElements.length;i++)new ScrollMagic.Scene({triggerElement:revealElements[i],offset:50,triggerHook:.9}).setClassToggle(revealElements[i],"visible").addTo(controller);
